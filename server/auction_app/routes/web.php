@@ -17,4 +17,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/items',)
+Route::get('/items','Itemscontroller@index');
